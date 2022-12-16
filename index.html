@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,900&family=Rubik&display=swap" rel="stylesheet">
+    <title>Car repair</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
+    <link rel="manifest" href="img/icons/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <header class="header" id="headerJs">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__block">
+                    <a href="/" class="header-logo">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </div> <!-- /header__block-->
+                <nav class="nav">
+                    <a href="#" data-scroll="#introJs" class="nav__link">Main</a>
+                    <a href="#" data-scroll="#service" class="nav__link">Our services</a>
+                    <a href="#" data-scroll="#about" class="nav__link">About</a>
+                    <a href="#" data-scroll="#contact" class="nav__link">Contacts</a>
+                </nav>
+                <div class="header__block">
+                    <button class="burger-mob">
+                        <span class="nav-mob-icon"></span>
+                    </button>
+                    <div class="header-lng">
+                        <button class="lang-btn grei">RU</button>
+                        <button id="ingl" class="lang">EN</button>
+                    </div>
+                    <div class="uchi">Учи Английский!</div>
+                </div>
+            </div><!--/header__wrapper-->
+        </div><!--/container-->
+    </header>
+    <section class="intro" id="introJs">
+        <div class="container">
+            <div class="intro__content">
+                <div class="intro__block">
+                    <h1 class="intro__title">
+                        KEEPING YOU ON THE ROAD WITH 
+                        SERVICE YOU CAN TRUST
+                    </h1>
+                    <a href="#" data-scroll="#fast" class="btn">Show more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /intro -->
+    <section class="info" >
+        <div class="container">
+            <div class="wrapper">
+                <div class="block"> 
+                    <!-- block 1-->
+                    <div class="info__item">
+                        <div class="info__img">
+                            <img src="img/phone.svg" alt="phone">
+                        </div>
+                        <h3 class="info__title">
+                            CALL US NOW 222-222-222
+                        </h3>
+                        <p class="info__text">
+                            Feel free to call us
+                        </p>
+                    </div><!--/info-item-->
+                </div><!--/info__block-->
+                <div class="block"> 
+                    <!-- block 2-->
+                    <div class="info__item">
+                        <div class="info__img">
+                            <img src="img/calendar.svg" alt="calendar">
+                        </div>
+                        <h3 class="info__title">
+                            GET FREE APPOITMET
+                        </h3>
+                        <p class="info__text">
+                            Free Diagnosis & Brake Checks
+                        </p>
+                    </div><!--/info-item-->
+                </div><!--/info__block-->
+                <div class="block">
+                    <!-- block 3-->
+                    <div class="info__item">
+                        <div class="info__img">
+                            <img src="img/pin.svg" alt="phone">
+                        </div>
+                        <h3 class="info__title">
+                            FIND US ON MAP
+                        </h3>
+                        <p class="info__text">
+                            New York, 1286 Ruumu Nanor
+                        </p>
+                    </div><!--/info-item-->
+                </div><!--/block-->
+            </div><!--/wrapper-->
+        </div> <!--/container-->
+    </section>
+    <!-- /info -->
+
+    <section class="section" id="service">
+        <div class="container">
+            <h2 class="block-title">
+                OUR SERVICES
+            </h2>
+            <a href="#" class="block-link">
+                VIEW ALL SERVICES
+            </a>
+            <div class="wrapper">
+                <div class="block">
+                    <a href="#" class="services__item">
+                        <div class="services__content" style="background-image: url('img/diagnostic.jpg');">
+                            <div class="services-cont-item">
+                                <div class="services__img">
+                                <img src="img/plus.svg" alt="plus">
+                            </div>
+                            <p class="services__text">
+                                ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
+                            </p>
+                            </div>
+                        </div>
+                        <h3 class="services__title">
+                            DIAGNOSTIC
+                        </h3>
+                    </a>
+                </div> <!-- /block-->
+                <div class="block">
+                    <a href="#" class="services__item">
+                        <div class="services__content" style="background-image: url('img/tires.jpg');">
+                            <div class="services-cont-item">
+                                <div class="services__img">
+                                <img src="img/plus.svg" alt="plus">
+                            </div>
+                            <p class="services__text">
+                                ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
+                            </p>
+                            </div>
+                        </div>
+                        <h3 class="services__title">
+                            TIRES & WHEELS
+                        </h3>
+                    </a>
+                </div> <!-- /block-->
+                <div class="block">
+                    <a href="#" class="services__item">
+                        <div class="services__content" style="background-image: url('img/engine.jpg');">
+                            <div class="services-cont-item">
+                                <div class="services__img">
+                                <img src="img/plus.svg" alt="plus">
+                            </div>
+                            <p class="services__text">
+                                ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
+                            </p>
+                            </div>
+                        </div>
+                        <h3 class="services__title">
+                            ENGINES
+                        </h3>
+                    </a>
+                </div> <!-- /block-->
+            </div><!-- /wrapper-->
+        </div>
+    </section>
+
+    <!-- about -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-block">
+                    <h2 class="block-title text-white">
+                        WE UNDERSTAND HOW IMPORTANT IT IS TO FIND THE RIGHT AUTO SERVICE
+                    </h2>
+                    <p class="about-text">
+                        Car repairs and maintenance can be expensive and no one wants to have pay to repair damage caused by shoddy repair service. When you bring your car into our auto shop, you won't have to worry because our staff is comprised of ASE certified technicians who are committed to making sure you have a safe dependable car.
+                    </p>
+                    <a href="https://github.com/Kairat-Nobels" class="about-link">
+                        MORE ABOUT US
+                    </a>
+                </div><!-- /about-block -->
+                <img src="img/about_img.jpg" class="about-img" alt="about">
+            </div><!-- /about-wrapper -->
+        </div><!-- /container -->
+    </section>
+
+    <!-- process -->
+    <section class="section process" id="fast">
+        <div class="container">
+            <div class="process">
+                <h2 class="process__title">FAST & EASY
+</h2>
+                <h3 class="process__subtitle">our work process</h3>
+                <div class="wrapper">
+                    <div class="block">
+                        <div class="process__item">
+                            <h4 class="info__title">1.Request your quote</h4>
+                            <p class="into__text">We will be there when you most need us</p>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="process__item">
+                            <h4 class="info__title">2. BRING YOUR VEHICLE</h4>
+                            <p class="into__text">We are car guys at heart</p>
+                        </div>
+                    </div>
+                        <div class="block">
+                            <div class="process__item">
+                            <h4 class="info__title">3. GET IT REPAIRED</h4>
+                            <p class="into__text">WHigh quality, low cost car servicing</p>
+                            </div>
+                        </div>
+                </div><!--/wrapper-->
+            </div> <!--/process-->
+        </div><!--/container-->
+    </section>
+
+    <!-- contacts -->
+    <section class="contacts" id="contact">
+        <div class="container">
+            <h2 class="block-title text-white">Contact us</h2>
+<form class="contacts__form" action="">
+            <div class="form__row">
+                <div class="form__group">
+                    <input type="text" class="input"  placeholder=" ">
+                    <label for="" class="label">
+                        Name
+                    </label>
+                </div>
+                <div class="form__group">
+                    <input type="text" class="input" placeholder=" ">
+                    <label for="" class="label">
+                        Last name
+                    </label>
+                </div>
+            </div>
+            <!--/form__row-->
+            <div class="form__row">
+                <div class="form__group">
+                    <input type="email" class="input" placeholder=" ">
+                    <label for="" class="label">
+                        Email
+                    </label>
+                </div>
+                <div class="form__group">
+                    <input type="tel" class="input" placeholder=" ">
+                    <label for="" class="label">
+                        Phone
+                    </label>
+                </div>
+            </div>
+            <!--/form__row-->
+            <div class="form__row">
+                <div class="form__group">
+                    <textarea class="textarea" placeholder=" " name=""></textarea>
+                    <label for="" class="label">
+                        Message
+                    </label>
+                </div>
+            </div>
+            <!--/form__row-->
+            <button class="btn text-upper" type="submit">
+                Send
+            </button>
+        </form>
+        <!--/contact__form-->
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <p class="copyright">
+                    © 2021 Auto theme by Frontend Tricks
+                </p>
+                <div class="footer__soc">
+                    <a href="" class="footer__soc-link">
+                        <img src="img/facebook.svg" alt="facebook">
+                    </a>
+                    <a href="#" class="footer__soc-link">
+                        <img src="img/linkedin.svg" alt="linkedin">
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/kairat_nobels/" class="footer__soc-link">
+                        <img src="img/instagram.svg" alt="instagram">
+                    </a>
+                </div><!--/footer__soc-->
+            </div> <!--/footer__wrapper-->
+        </div><!--/container-->
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
